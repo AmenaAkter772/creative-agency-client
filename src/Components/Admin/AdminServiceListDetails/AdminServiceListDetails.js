@@ -7,6 +7,7 @@ const AdminServiceListDetails = ({service}) => {
             <td>{service.email}</td>
             <td>{service.design}</td>
             <td>{service.project}</td>
+            <td>{service.price}</td>
         </tr>
     );
 };

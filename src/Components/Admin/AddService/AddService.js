@@ -43,7 +43,7 @@ const AddService = () => {
                 <AdminSidebar></AdminSidebar>
             </div>
             <div className="col-md-7">
-                <h4>Order</h4>
+                <h4>Service List</h4>
                 <div>
                 <form onSubmit={handleSubmit}>
                         <div class="form-group">

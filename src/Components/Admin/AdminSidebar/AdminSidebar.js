@@ -15,7 +15,7 @@ const AdminSidebar = () => {
                     </li>
                     <li>
                         <Link to="/adminServiceList" className="text-dark">
-                            <FontAwesomeIcon icon={faTaxi} /> <span>Add Admin Service List</span>
+                            <FontAwesomeIcon icon={faTaxi} /> <span>Service List</span>
                         </Link>
                     
                     </li>

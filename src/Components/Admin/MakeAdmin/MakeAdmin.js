@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import AdminSidebar from '../AdminSidebar/AdminSidebar';
+import headerLogo from '../../../images/logos/logo.png'
 
 const MakeAdmin = () => {
     const [admin, setAdmin]=useState('')
@@ -21,7 +22,7 @@ const MakeAdmin = () => {
         <div>
             <div className="container row d-flex pt-5 mt-5">
             <div className="col-md-3 ml-5 pl-5">
-                <h4>Logo Here</h4>
+               <img style={{width:'100px'}} src={headerLogo} alt=""/>
                 <AdminSidebar></AdminSidebar>
             </div>
             <div className="col-md-7">

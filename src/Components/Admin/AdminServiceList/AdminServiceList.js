@@ -24,6 +24,7 @@ const AdminServiceList = () => {
                                 <th style={{width:'20%'}}>Email ID</th>
                                 <th style={{width:'20%'}}>Service</th>
                                 <th style={{width:'25%'}}>Project Details</th>
+                                <th style={{width:'25%'}}>status</th>
                             </tr>
                         </thead>
                         <tbody>
